@@ -1,6 +1,6 @@
 function OmegaVal=LMI_Aut16b_th1(A,B,beta,D0,Q,C,K,rho,BC,Gamma,tauM,Delta,epsilon,delta,delta1)
 % This MATLAB program checks the feasibility of LMIs from Theorem 1 of the paper 
-% A. Selivanov and E. Fridman, "Distributed event-triggered control of diffusion semilinear PDEs," Automatica, vol. 68, pp. 344–351, 2016.
+% A. Selivanov and E. Fridman, "Distributed event-triggered control of diffusion semilinear PDEs," Automatica, vol. 68, pp. 344â€“351, 2016.
 
 % The program uses YALMIP parser (http://users.isy.liu.se/johanl/yalmip/)
 % and SeDuMi solver (http://sedumi.ie.lehigh.edu/)
@@ -89,5 +89,5 @@ if sol.problem == 0
         OmegaVal=double(Omega); 
     end
 else
-    yalmiperror(sol.problem); 
+    yalmiperror(sol.problem)
 end
