@@ -86,7 +86,7 @@ OmegaVal=[];
 if sol.problem == 0
     primal=check(LMIs); 
     if min(primal)>=0 && min(primal(1:4))>0
-        OmegaVal=double(Omega); 
+        OmegaVal=value(Omega); 
     end
 else
     yalmiperror(sol.problem)
