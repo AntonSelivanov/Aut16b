@@ -1,5 +1,6 @@
 % This MATLAB program checks the feasibility of LMIs from Theorems 1, 2 of the paper 
-% A. Selivanov and E. Fridman, "Distributed event-triggered control of diffusion semilinear PDEs," Automatica, vol. 68, pp. 344–351, 2016.
+% A. Selivanov and E. Fridman, "Distributed event-triggered control of diffusion semilinear PDEs," Automatica, vol. 68, pp. 344â€“351, 2016.
+
 %% Parameters of a chemical reactor 
 A=[0 .01; -.45 -.2]; 
 B=[1;1]; 
